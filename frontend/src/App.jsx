@@ -76,10 +76,10 @@ function App() {
             <h1 className="hero-title">
               Hi, I'm <span className="gradient-text">Aneeq Shams</span>
             </h1>
-            <h2 className="hero-subtitle">MERN Stack Developer</h2>
+            <h2 className="hero-subtitle">Software Engineer</h2>
             <p className="hero-description">
-              Building scalable web applications with modern technologies. 
-              Passionate about clean code and exceptional user experiences.
+               Building robust software solutions and scalable web applications.
+                 Passionate about software architecture, clean code, and solving complex real-world problems.
             </p>
             <div className="hero-buttons">
               <a href="#contact" className="btn-primary">
@@ -116,12 +116,13 @@ function App() {
  
               <div className="profile-info">
                 <h4>Aneeq Shams</h4>
-                <p>MERN Stack Developer</p>
+                <p>Software Engineer</p>
                 <div className="profile-skills">
-                  <span>MongoDB</span>
-                  <span>Express.js</span>
-                  <span>React.js</span>
-                  <span>Node.js</span>
+                  <span>AI Engineer</span>
+                  <span>SQA Engineer</span>
+                  <span>Backend Developer</span>
+                  <span>MERN Stack Developer</span>
+                  <span>Problem Solving</span>
                 </div>
               </div>
             </div>
@@ -166,7 +167,7 @@ I enjoy turning ideas into functional, user-friendly web applications and contin
         <div className="container">
           <h2 className="section-title">Technical Skills</h2>
           <div className="skills-grid">
-            {['MERN Stack Developer', 'WordPress Website Developer','Software Quality Assuarnce', 'Manual Testing', 'Automation Testing', 'MySQL', 'Python', 'Java'].map((skill, i) => (
+            {['AI Engineer', 'SQA Engineer', 'Backend Developer', 'MERN Stack Developer', 'WordPress Website Developer', 'MySQL', 'Python', 'Java', 'Microsoft Office', 'n8n AI Automation', 'Retell AI Voice Agent'].map((skill, i) => (
               <div key={i} className="skill-item">
                 <div className="skill-icon">⚡</div>
                 <span>{skill}</span>
